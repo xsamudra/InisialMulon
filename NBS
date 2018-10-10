@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<canvas id="myCanvas" width="640" height="400" style="border:1px solid #d3d3d3;">
+Your browser does not support the HTML5 canvas tag.</canvas>
+
+<script>
+
+var c = document.getElementById("myCanvas");
+var ctx = c.getContext("2d");
+ctx.beginPath();
+ctx.moveTo(20, 20);
+ctx.lineTo(60, 20);
+ctx.lineTo(120, 175);
+ctx.lineTo(120, 20);
+ctx.lineTo(160, 20);
+ctx.lineTo(160, 260);
+ctx.lineTo(120, 260);
+ctx.lineTo(60, 100);
+ctx.lineTo(60, 260);
+ctx.lineTo(20, 260);
+ctx.lineTo(20, 20);
+
+ctx.strokeStyle = "black";
+ctx.stroke();
+
+ctx.beginPath();
+ctx.moveTo(200, 20);
+ctx.lineTo(200, 260);
+ctx.lineTo(260, 260);
+ctx.lineTo(380, 170);
+ctx.lineTo(260, 140);
+ctx.lineTo(360, 80);
+ctx.lineTo(260, 20);
+ctx.lineTo(200, 20);
+
+ctx.strokeStyle = "red";
+ctx.stroke();
+
+ctx.beginPath();
+ctx.moveTo(260, 60);
+ctx.lineTo(260, 100);
+ctx.lineTo(300, 75);
+ctx.lineTo(260, 60);
+
+ctx.strokeStyle = "red";
+ctx.stroke();
+
+ctx.beginPath();
+ctx.moveTo(260, 170);
+ctx.lineTo(260, 220);
+ctx.lineTo(330, 180);
+ctx.lineTo(260, 170);
+
+ctx.strokeStyle = "red";
+ctx.stroke();
+
+ctx.beginPath();
+ctx.moveTo(400, 20);
+ctx.lineTo(550, 20);
+ctx.lineTo(550, 60);
+ctx.lineTo(430, 60);
+ctx.lineTo(430, 120);
+ctx.lineTo(550, 120);
+ctx.lineTo(550, 260);
+ctx.lineTo(400, 260);
+ctx.lineTo(400, 220);
+ctx.lineTo(520, 220);
+ctx.lineTo(520, 160);
+ctx.lineTo(400, 160);
+ctx.lineTo(400, 20);
+
+ctx.strokeStyle = "blue";
+ctx.stroke();
+
+</script> 
+
+</body>
+</html>
